@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DD0E52E13F56EE500E3E6A3 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0E52D13F56EE500E3E6A3 /* RateView.m */; };
+		7DD0E53413F56F2F00E3E6A3 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0E53313F56F2F00E3E6A3 /* UIImageExtras.m */; };
+		7DD0E53C13F5739B00E3E6A3 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0E53613F5739B00E3E6A3 /* empty.png */; };
+		7DD0E53D13F5739B00E3E6A3 /* full.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0E53713F5739B00E3E6A3 /* full.png */; };
+		7DD0E53E13F5739B00E3E6A3 /* half.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0E53813F5739B00E3E6A3 /* half.png */; };
+		7DD0E54513F573E700E3E6A3 /* EditDebterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0E54313F573E700E3E6A3 /* EditDebterViewController.m */; };
+		7DD0E54613F573E700E3E6A3 /* EditDebterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0E54413F573E700E3E6A3 /* EditDebterViewController.xib */; };
+		7DEE01E413F3FD57009145E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE01E313F3FD57009145E7 /* UIKit.framework */; };
+		7DEE01E613F3FD57009145E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE01E513F3FD57009145E7 /* Foundation.framework */; };
+		7DEE01E813F3FD57009145E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE01E713F3FD57009145E7 /* CoreGraphics.framework */; };
+		7DEE01EE13F3FD57009145E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE01EC13F3FD57009145E7 /* InfoPlist.strings */; };
+		7DEE01F113F3FD57009145E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE01F013F3FD57009145E7 /* main.m */; };
+		7DEE01F413F3FD57009145E7 /* DebtManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE01F313F3FD57009145E7 /* DebtManagerAppDelegate.m */; };
+		7DEE01F713F3FD57009145E7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE01F513F3FD57009145E7 /* MainWindow.xib */; };
+		7DEE01FA13F3FD57009145E7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE01F913F3FD57009145E7 /* RootViewController.m */; };
+		7DEE01FD13F3FD57009145E7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE01FB13F3FD57009145E7 /* RootViewController.xib */; };
+		7DEE020413F3FD57009145E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE01E313F3FD57009145E7 /* UIKit.framework */; };
+		7DEE020513F3FD57009145E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE01E513F3FD57009145E7 /* Foundation.framework */; };
+		7DEE020613F3FD57009145E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEE01E713F3FD57009145E7 /* CoreGraphics.framework */; };
+		7DEE020E13F3FD57009145E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE020C13F3FD57009145E7 /* InfoPlist.strings */; };
+		7DEE021113F3FD57009145E7 /* DebtManagerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE021013F3FD57009145E7 /* DebtManagerTests.h */; };
+		7DEE021313F3FD57009145E7 /* DebtManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE021213F3FD57009145E7 /* DebtManagerTests.m */; };
+		7DEE022213F403E1009145E7 /* DebterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE022113F403E1009145E7 /* DebterData.m */; };
+		7DEE022D13F48089009145E7 /* DebterDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE022C13F48089009145E7 /* DebterDoc.m */; };
+		7DFD5F9D13F5CFD30097D024 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9413F5CFD30097D024 /* centipede.jpg */; };
+		7DFD5F9E13F5CFD30097D024 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9513F5CFD30097D024 /* centipedeThumb.jpg */; };
+		7DFD5F9F13F5CFD30097D024 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9613F5CFD30097D024 /* ladybug.jpg */; };
+		7DFD5FA013F5CFD30097D024 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9713F5CFD30097D024 /* ladybugThumb.jpg */; };
+		7DFD5FA113F5CFD30097D024 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9813F5CFD30097D024 /* potatoBug.jpg */; };
+		7DFD5FA213F5CFD30097D024 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9913F5CFD30097D024 /* potatoBugThumb.jpg */; };
+		7DFD5FA313F5CFD30097D024 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9A13F5CFD30097D024 /* wolfSpider.jpg */; };
+		7DFD5FA413F5CFD30097D024 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD5F9B13F5CFD30097D024 /* wolfSpiderThumb.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DEE020713F3FD57009145E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DEE01D613F3FD57009145E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DEE01DE13F3FD57009145E7;
+			remoteInfo = DebtManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DD0E52C13F56EE500E3E6A3 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateView.h; path = DebtManager/RateView.h; sourceTree = "<group>"; };
+		7DD0E52D13F56EE500E3E6A3 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateView.m; path = DebtManager/RateView.m; sourceTree = "<group>"; };
+		7DD0E53213F56F2F00E3E6A3 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		7DD0E53313F56F2F00E3E6A3 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
+		7DD0E53613F5739B00E3E6A3 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		7DD0E53713F5739B00E3E6A3 /* full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full.png; sourceTree = "<group>"; };
+		7DD0E53813F5739B00E3E6A3 /* half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = half.png; sourceTree = "<group>"; };
+		7DD0E54213F573E700E3E6A3 /* EditDebterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDebterViewController.h; sourceTree = "<group>"; };
+		7DD0E54313F573E700E3E6A3 /* EditDebterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDebterViewController.m; sourceTree = "<group>"; };
+		7DD0E54413F573E700E3E6A3 /* EditDebterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDebterViewController.xib; sourceTree = "<group>"; };
+		7DEE01DF13F3FD57009145E7 /* DebtManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEE01E313F3FD57009145E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DEE01E513F3FD57009145E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DEE01E713F3FD57009145E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DEE01EB13F3FD57009145E7 /* DebtManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebtManager-Info.plist"; sourceTree = "<group>"; };
+		7DEE01ED13F3FD57009145E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DEE01EF13F3FD57009145E7 /* DebtManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DebtManager-Prefix.pch"; sourceTree = "<group>"; };
+		7DEE01F013F3FD57009145E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DEE01F213F3FD57009145E7 /* DebtManagerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebtManagerAppDelegate.h; sourceTree = "<group>"; };
+		7DEE01F313F3FD57009145E7 /* DebtManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebtManagerAppDelegate.m; sourceTree = "<group>"; };
+		7DEE01F613F3FD57009145E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7DEE01F813F3FD57009145E7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7DEE01F913F3FD57009145E7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7DEE01FC13F3FD57009145E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		7DEE020313F3FD57009145E7 /* DebtManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebtManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEE020B13F3FD57009145E7 /* DebtManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebtManagerTests-Info.plist"; sourceTree = "<group>"; };
+		7DEE020D13F3FD57009145E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DEE020F13F3FD57009145E7 /* DebtManagerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DebtManagerTests-Prefix.pch"; sourceTree = "<group>"; };
+		7DEE021013F3FD57009145E7 /* DebtManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebtManagerTests.h; sourceTree = "<group>"; };
+		7DEE021213F3FD57009145E7 /* DebtManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebtManagerTests.m; sourceTree = "<group>"; };
+		7DEE022013F403E1009145E7 /* DebterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebterData.h; sourceTree = "<group>"; };
+		7DEE022113F403E1009145E7 /* DebterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebterData.m; sourceTree = "<group>"; };
+		7DEE022B13F48089009145E7 /* DebterDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebterDoc.h; path = DebtManager.xcodeproj/DebterDoc.h; sourceTree = "<group>"; };
+		7DEE022C13F48089009145E7 /* DebterDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebterDoc.m; path = DebtManager.xcodeproj/DebterDoc.m; sourceTree = "<group>"; };
+		7DFD5F9413F5CFD30097D024 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		7DFD5F9513F5CFD30097D024 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		7DFD5F9613F5CFD30097D024 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		7DFD5F9713F5CFD30097D024 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		7DFD5F9813F5CFD30097D024 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		7DFD5F9913F5CFD30097D024 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		7DFD5F9A13F5CFD30097D024 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		7DFD5F9B13F5CFD30097D024 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DEE01DC13F3FD57009145E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEE01E413F3FD57009145E7 /* UIKit.framework in Frameworks */,
+				7DEE01E613F3FD57009145E7 /* Foundation.framework in Frameworks */,
+				7DEE01E813F3FD57009145E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEE01FF13F3FD57009145E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEE020413F3FD57009145E7 /* UIKit.framework in Frameworks */,
+				7DEE020513F3FD57009145E7 /* Foundation.framework in Frameworks */,
+				7DEE020613F3FD57009145E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DD0E53013F56EF200E3E6A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DD0E52C13F56EE500E3E6A3 /* RateView.h */,
+				7DD0E52D13F56EE500E3E6A3 /* RateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7DD0E53113F56F0D00E3E6A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7DD0E53213F56F2F00E3E6A3 /* UIImageExtras.h */,
+				7DD0E53313F56F2F00E3E6A3 /* UIImageExtras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7DD0E53513F5737400E3E6A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD5F9413F5CFD30097D024 /* centipede.jpg */,
+				7DFD5F9513F5CFD30097D024 /* centipedeThumb.jpg */,
+				7DFD5F9613F5CFD30097D024 /* ladybug.jpg */,
+				7DFD5F9713F5CFD30097D024 /* ladybugThumb.jpg */,
+				7DFD5F9813F5CFD30097D024 /* potatoBug.jpg */,
+				7DFD5F9913F5CFD30097D024 /* potatoBugThumb.jpg */,
+				7DFD5F9A13F5CFD30097D024 /* wolfSpider.jpg */,
+				7DFD5F9B13F5CFD30097D024 /* wolfSpiderThumb.jpg */,
+				7DD0E53613F5739B00E3E6A3 /* empty.png */,
+				7DD0E53713F5739B00E3E6A3 /* full.png */,
+				7DD0E53813F5739B00E3E6A3 /* half.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DEE01D413F3FD57009145E7 = {
+			isa = PBXGroup;
+			children = (
+				7DEE01E913F3FD57009145E7 /* ViewControllers */,
+				7DEE020913F3FD57009145E7 /* DebtManagerTests */,
+				7DEE01E213F3FD57009145E7 /* Frameworks */,
+				7DEE01E013F3FD57009145E7 /* Products */,
+				7DD0E53513F5737400E3E6A3 /* Resources */,
+				7DD0E53113F56F0D00E3E6A3 /* Helpers */,
+				7DD0E53013F56EF200E3E6A3 /* Views */,
+				7DEE021C13F40374009145E7 /* Model */,
+			);
+			sourceTree = "<group>";
+		};
+		7DEE01E013F3FD57009145E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE01DF13F3FD57009145E7 /* DebtManager.app */,
+				7DEE020313F3FD57009145E7 /* DebtManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DEE01E213F3FD57009145E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE01E313F3FD57009145E7 /* UIKit.framework */,
+				7DEE01E513F3FD57009145E7 /* Foundation.framework */,
+				7DEE01E713F3FD57009145E7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DEE01E913F3FD57009145E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE01F213F3FD57009145E7 /* DebtManagerAppDelegate.h */,
+				7DEE01F313F3FD57009145E7 /* DebtManagerAppDelegate.m */,
+				7DEE01F513F3FD57009145E7 /* MainWindow.xib */,
+				7DEE01F813F3FD57009145E7 /* RootViewController.h */,
+				7DEE01F913F3FD57009145E7 /* RootViewController.m */,
+				7DD0E54213F573E700E3E6A3 /* EditDebterViewController.h */,
+				7DD0E54313F573E700E3E6A3 /* EditDebterViewController.m */,
+				7DD0E54413F573E700E3E6A3 /* EditDebterViewController.xib */,
+				7DEE01FB13F3FD57009145E7 /* RootViewController.xib */,
+				7DEE01EA13F3FD57009145E7 /* Supporting Files */,
+			);
+			name = ViewControllers;
+			path = DebtManager;
+			sourceTree = "<group>";
+		};
+		7DEE01EA13F3FD57009145E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE01EB13F3FD57009145E7 /* DebtManager-Info.plist */,
+				7DEE01EC13F3FD57009145E7 /* InfoPlist.strings */,
+				7DEE01EF13F3FD57009145E7 /* DebtManager-Prefix.pch */,
+				7DEE01F013F3FD57009145E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DEE020913F3FD57009145E7 /* DebtManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE021013F3FD57009145E7 /* DebtManagerTests.h */,
+				7DEE021213F3FD57009145E7 /* DebtManagerTests.m */,
+				7DEE020A13F3FD57009145E7 /* Supporting Files */,
+			);
+			path = DebtManagerTests;
+			sourceTree = "<group>";
+		};
+		7DEE020A13F3FD57009145E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE020B13F3FD57009145E7 /* DebtManagerTests-Info.plist */,
+				7DEE020C13F3FD57009145E7 /* InfoPlist.strings */,
+				7DEE020F13F3FD57009145E7 /* DebtManagerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DEE021C13F40374009145E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE022B13F48089009145E7 /* DebterDoc.h */,
+				7DEE022C13F48089009145E7 /* DebterDoc.m */,
+				7DEE022013F403E1009145E7 /* DebterData.h */,
+				7DEE022113F403E1009145E7 /* DebterData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DEE01DE13F3FD57009145E7 /* DebtManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEE021613F3FD57009145E7 /* Build configuration list for PBXNativeTarget "DebtManager" */;
+			buildPhases = (
+				7DEE01DB13F3FD57009145E7 /* Sources */,
+				7DEE01DC13F3FD57009145E7 /* Frameworks */,
+				7DEE01DD13F3FD57009145E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebtManager;
+			productName = DebtManager;
+			productReference = 7DEE01DF13F3FD57009145E7 /* DebtManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DEE020213F3FD57009145E7 /* DebtManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DEE021913F3FD57009145E7 /* Build configuration list for PBXNativeTarget "DebtManagerTests" */;
+			buildPhases = (
+				7DEE01FE13F3FD57009145E7 /* Sources */,
+				7DEE01FF13F3FD57009145E7 /* Frameworks */,
+				7DEE020013F3FD57009145E7 /* Resources */,
+				7DEE020113F3FD57009145E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DEE020813F3FD57009145E7 /* PBXTargetDependency */,
+			);
+			name = DebtManagerTests;
+			productName = DebtManagerTests;
+			productReference = 7DEE020313F3FD57009145E7 /* DebtManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DEE01D613F3FD57009145E7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7DEE01D913F3FD57009145E7 /* Build configuration list for PBXProject "DebtManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DEE01D413F3FD57009145E7;
+			productRefGroup = 7DEE01E013F3FD57009145E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DEE01DE13F3FD57009145E7 /* DebtManager */,
+				7DEE020213F3FD57009145E7 /* DebtManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DEE01DD13F3FD57009145E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEE01EE13F3FD57009145E7 /* InfoPlist.strings in Resources */,
+				7DEE01F713F3FD57009145E7 /* MainWindow.xib in Resources */,
+				7DEE01FD13F3FD57009145E7 /* RootViewController.xib in Resources */,
+				7DD0E53C13F5739B00E3E6A3 /* empty.png in Resources */,
+				7DD0E53D13F5739B00E3E6A3 /* full.png in Resources */,
+				7DD0E53E13F5739B00E3E6A3 /* half.png in Resources */,
+				7DD0E54613F573E700E3E6A3 /* EditDebterViewController.xib in Resources */,
+				7DFD5F9D13F5CFD30097D024 /* centipede.jpg in Resources */,
+				7DFD5F9E13F5CFD30097D024 /* centipedeThumb.jpg in Resources */,
+				7DFD5F9F13F5CFD30097D024 /* ladybug.jpg in Resources */,
+				7DFD5FA013F5CFD30097D024 /* ladybugThumb.jpg in Resources */,
+				7DFD5FA113F5CFD30097D024 /* potatoBug.jpg in Resources */,
+				7DFD5FA213F5CFD30097D024 /* potatoBugThumb.jpg in Resources */,
+				7DFD5FA313F5CFD30097D024 /* wolfSpider.jpg in Resources */,
+				7DFD5FA413F5CFD30097D024 /* wolfSpiderThumb.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEE020013F3FD57009145E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEE020E13F3FD57009145E7 /* InfoPlist.strings in Resources */,
+				7DEE021113F3FD57009145E7 /* DebtManagerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DEE020113F3FD57009145E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DEE01DB13F3FD57009145E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEE01F113F3FD57009145E7 /* main.m in Sources */,
+				7DEE01F413F3FD57009145E7 /* DebtManagerAppDelegate.m in Sources */,
+				7DEE01FA13F3FD57009145E7 /* RootViewController.m in Sources */,
+				7DEE022213F403E1009145E7 /* DebterData.m in Sources */,
+				7DEE022D13F48089009145E7 /* DebterDoc.m in Sources */,
+				7DD0E52E13F56EE500E3E6A3 /* RateView.m in Sources */,
+				7DD0E53413F56F2F00E3E6A3 /* UIImageExtras.m in Sources */,
+				7DD0E54513F573E700E3E6A3 /* EditDebterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DEE01FE13F3FD57009145E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEE021313F3FD57009145E7 /* DebtManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DEE020813F3FD57009145E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DEE01DE13F3FD57009145E7 /* DebtManager */;
+			targetProxy = 7DEE020713F3FD57009145E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DEE01EC13F3FD57009145E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEE01ED13F3FD57009145E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DEE01F513F3FD57009145E7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEE01F613F3FD57009145E7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7DEE01FB13F3FD57009145E7 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEE01FC13F3FD57009145E7 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		7DEE020C13F3FD57009145E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DEE020D13F3FD57009145E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DEE021413F3FD57009145E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DEE021513F3FD57009145E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7DEE021713F3FD57009145E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebtManager/DebtManager-Prefix.pch";
+				INFOPLIST_FILE = "DebtManager/DebtManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DEE021813F3FD57009145E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebtManager/DebtManager-Prefix.pch";
+				INFOPLIST_FILE = "DebtManager/DebtManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7DEE021A13F3FD57009145E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DebtManager.app/DebtManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebtManagerTests/DebtManagerTests-Prefix.pch";
+				INFOPLIST_FILE = "DebtManagerTests/DebtManagerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7DEE021B13F3FD57009145E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DebtManager.app/DebtManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DebtManagerTests/DebtManagerTests-Prefix.pch";
+				INFOPLIST_FILE = "DebtManagerTests/DebtManagerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DEE01D913F3FD57009145E7 /* Build configuration list for PBXProject "DebtManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEE021413F3FD57009145E7 /* Debug */,
+				7DEE021513F3FD57009145E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEE021613F3FD57009145E7 /* Build configuration list for PBXNativeTarget "DebtManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEE021713F3FD57009145E7 /* Debug */,
+				7DEE021813F3FD57009145E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DEE021913F3FD57009145E7 /* Build configuration list for PBXNativeTarget "DebtManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DEE021A13F3FD57009145E7 /* Debug */,
+				7DEE021B13F3FD57009145E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DEE01D613F3FD57009145E7 /* Project object */;
+}
